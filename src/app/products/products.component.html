@@ -1,0 +1,19 @@
+<div class="content">
+	
+ <div class="side1">
+ 
+<ul class="products">
+  <li *ngFor="let product of products"
+    [class.selected]="product === selectedProduct"
+    (click)="onSelect(product)">
+    <span class="badge">{{product.id}}</span> {{product.name}}
+    <button class="delete" title="delete product"
+(click)="delete(product)">x</button>
+  </li>
+</ul>
+ </div>
+ <div class="side2">
+<app-product-detailed [product]="selectedProduct"></app-product-detailed>
+</div>
+<div class="clr"></div>
+</div>

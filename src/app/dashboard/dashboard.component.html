@@ -1,0 +1,33 @@
+
+
+
+	<div class="box">
+<h3>Popular Products</h3>
+<div class="grid">
+  <a *ngFor="let product of products"  routerLink="/detail/{{product.id}}" class="col-1-4">
+    <div class="module product">
+      <h4>{{product.name}}</h4>
+    </div>
+  </a>
+  <div class="clr"></div>
+</div>
+</div>
+
+
+<div class="box">
+	<h3>Add Product</h3>
+<div class="add-product">
+  <label>
+    <input #productName />
+  </label>
+    <button (click)="add(productName.value); productName.value=''">
+    Add
+  </button>
+</div>
+</div>
+
+
+<div class="box" style="padding-bottom: 2em">
+<app-product-search></app-product-search>
+</div>
+<div class="clr"></div>

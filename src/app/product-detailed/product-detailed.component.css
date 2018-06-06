@@ -1,0 +1,25 @@
+.prop{
+	width: 70%;
+}
+.prop td{
+     border-bottom: 1px solid #f4f4f4;
+     padding: 5px 0;
+}
+input{
+	width: 98%;
+	border:none;
+}
+.prp-anchor{
+	margin-top: 3em;
+	font-size: 10px;
+	color: #00c9e6;
+	cursor: pointer;
+}
+button{
+	background-color: #00c9e6;
+	padding: 0.5em 1.5em;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+

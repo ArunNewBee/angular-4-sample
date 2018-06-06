@@ -1,0 +1,27 @@
+
+.container{
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header{
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border-bottom: 1px solid #e0e2e2;
+}
+.header nav a{
+	color: #00c9e6;
+	margin-right: 0.5em;
+	padding: 10px;
+	background-color: #fff;
+	text-decoration: none;
+}
+.header nav a:hover{
+	background-color: #dddddd;
+	}
+	.footer
+	{
+		border-top: 1px solid #e0e2e2;
+		margin-top: 3em;
+	}

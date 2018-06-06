@@ -1,0 +1,19 @@
+h3{padding-top: 2em;}
+button{
+	background-color: #fff;
+	border: 1px solid #e0e2e2;
+	padding: 3px 15px;
+	margin-bottom: 1em;
+}
+button:hover{
+	cursor: pointer;
+	background-color: #00c9e6;
+	color: #fff;
+}
+.messages{
+	padding: 10px 0;
+	border-bottom: 1px solid #e0e2e2;
+}
+.messages:last-child{
+	border-bottom: none;
+}
